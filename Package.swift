@@ -1,10 +1,4 @@
-//
-//  AttributedTextView.swift
-//  Restofire
-//
-//  Created by Edwin Vermeer on 23/10/15.
-//  Copyright © 2016 evermeer. All rights reserved.
-//
+// swift-tools-version:5.0
 
 import PackageDescription
 
