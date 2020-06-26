@@ -9,7 +9,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "AttributedTextView",
+    name: "SkeletonView",
     dependencies: [],
-    exclude: ["Tests"]
+    exclude: ["Tests"],
+	swiftLanguageVersions: [.v5]
 )
