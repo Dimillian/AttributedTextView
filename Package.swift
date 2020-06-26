@@ -3,8 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "SkeletonView",
-    dependencies: [],
-    exclude: ["Tests"],
+    name: "AttributedTextView",
+    products: [
+        .library(
+            name: "AttributedTextView",
+            targets: ["AttributedTextView"])
+	],
+	targets: [
+		.target(
+			name: "AttributedTextView",
+			dependencies: [],
+			path: "Sources")
+	],
 	swiftLanguageVersions: [.v5]
 )
